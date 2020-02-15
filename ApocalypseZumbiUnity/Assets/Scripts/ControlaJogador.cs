@@ -17,6 +17,15 @@ public class ControlaJogador : MonoBehaviour
         float eixoX = Input.GetAxis("Horizontal");
         float eixoZ = Input.GetAxis("Vertical");
         Vector3 direcao = new Vector3(eixoX, 0, eixoZ);
-       // transform.Translate(Vector3.forward * velocidade * Time.deltaTime);
+        transform.Translate(direcao * velocidade * Time.deltaTime);
+
+        if (direcao != Vector3.zero)
+        {
+            GetComponent<Animator>().SetBool("Movendo", true);
+        }
+        else {
+            GetComponent<Animator>().SetBool("Movendo", false);
+
+        }
     }
 }
