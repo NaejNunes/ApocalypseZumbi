@@ -318,6 +318,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   velocidade: 10
+  mascaraChao:
+    serializedVersion: 2
+    m_Bits: 512
 --- !u!95 &393254029
 Animator:
   serializedVersion: 3
@@ -453,7 +456,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 534669902}
   m_LocalRotation: {x: 0.34032294, y: -0, z: -0, w: 0.94030863}
-  m_LocalPosition: {x: -25.6, y: 8.65, z: -17.41}
+  m_LocalPosition: {x: -25.6, y: 10.55, z: -19.69}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
@@ -482,6 +485,10 @@ PrefabInstance:
     - target: {fileID: 1437694135535552, guid: 68d2e588be11c45b5bcef522aa3f7cca, type: 3}
       propertyPath: m_Name
       value: Rua_Canto (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1437694135535552, guid: 68d2e588be11c45b5bcef522aa3f7cca, type: 3}
+      propertyPath: m_Layer
+      value: 9
       objectReference: {fileID: 0}
     - target: {fileID: 4585601856761568, guid: 68d2e588be11c45b5bcef522aa3f7cca, type: 3}
       propertyPath: m_LocalPosition.x
@@ -810,6 +817,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Rua_Canto
       objectReference: {fileID: 0}
+    - target: {fileID: 1437694135535552, guid: 68d2e588be11c45b5bcef522aa3f7cca, type: 3}
+      propertyPath: m_Layer
+      value: 9
+      objectReference: {fileID: 0}
     - target: {fileID: 4585601856761568, guid: 68d2e588be11c45b5bcef522aa3f7cca, type: 3}
       propertyPath: m_LocalPosition.x
       value: -20
@@ -1071,7 +1082,7 @@ Rigidbody:
   m_UseGravity: 1
   m_IsKinematic: 0
   m_Interpolate: 0
-  m_Constraints: 116
+  m_Constraints: 112
   m_CollisionDetection: 0
 --- !u!4 &1884102175649347 stripped
 Transform:
@@ -1100,10 +1111,25 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 236110904012444416, guid: 4d7d4cd99cd892a43bdd1dadbd6c5b95,
+        type: 3}
+      propertyPath: m_Layer
+      value: 9
+      objectReference: {fileID: 0}
     - target: {fileID: 236110904012444418, guid: 4d7d4cd99cd892a43bdd1dadbd6c5b95,
         type: 3}
       propertyPath: m_Name
       value: Hotel_Secundario_Destruido
+      objectReference: {fileID: 0}
+    - target: {fileID: 236110904012444418, guid: 4d7d4cd99cd892a43bdd1dadbd6c5b95,
+        type: 3}
+      propertyPath: m_Layer
+      value: 9
+      objectReference: {fileID: 0}
+    - target: {fileID: 236110904012444422, guid: 4d7d4cd99cd892a43bdd1dadbd6c5b95,
+        type: 3}
+      propertyPath: m_Layer
+      value: 9
       objectReference: {fileID: 0}
     - target: {fileID: 236110904012672802, guid: 4d7d4cd99cd892a43bdd1dadbd6c5b95,
         type: 3}
@@ -1229,6 +1255,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Hotel_Estacionamento_Destruido
       objectReference: {fileID: 0}
+    - target: {fileID: 2168722086645640128, guid: 9feebd986110c2c42a5a3b9dc6347df7,
+        type: 3}
+      propertyPath: m_Layer
+      value: 9
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 9feebd986110c2c42a5a3b9dc6347df7, type: 3}
 --- !u!1001 &6838959507502707634
@@ -1238,10 +1269,25 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 6838959508440738153, guid: 9e7a01341b0fe3b47a108febf9f58eeb,
+        type: 3}
+      propertyPath: m_Layer
+      value: 9
+      objectReference: {fileID: 0}
     - target: {fileID: 6838959508440738155, guid: 9e7a01341b0fe3b47a108febf9f58eeb,
         type: 3}
       propertyPath: m_Name
       value: Hotel_Destruido
+      objectReference: {fileID: 0}
+    - target: {fileID: 6838959508440738155, guid: 9e7a01341b0fe3b47a108febf9f58eeb,
+        type: 3}
+      propertyPath: m_Layer
+      value: 9
+      objectReference: {fileID: 0}
+    - target: {fileID: 6838959508440738159, guid: 9e7a01341b0fe3b47a108febf9f58eeb,
+        type: 3}
+      propertyPath: m_Layer
+      value: 9
       objectReference: {fileID: 0}
     - target: {fileID: 6838959508440773963, guid: 9e7a01341b0fe3b47a108febf9f58eeb,
         type: 3}
